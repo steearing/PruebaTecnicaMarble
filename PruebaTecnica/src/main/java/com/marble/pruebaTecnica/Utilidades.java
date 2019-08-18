@@ -10,7 +10,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 public class Utilidades {
-	
+
 	public String getscreenshot(WebDriver driver, String rutaEvidencia) throws Exception {
 		String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
 		File carpetaScreenshot = new File(rutaEvidencia);

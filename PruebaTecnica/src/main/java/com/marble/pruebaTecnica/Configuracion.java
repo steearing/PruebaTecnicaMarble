@@ -6,9 +6,8 @@ import java.util.Properties;
 
 import com.marble.dto.Respuesta;
 
-
 public class Configuracion {
-	
+
 	public Respuesta leerArchivo(String valor) {
 		Respuesta respuesta = new Respuesta();
 		try {
